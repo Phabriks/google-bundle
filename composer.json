@@ -1,0 +1,18 @@
+{
+    "name": "phabriks/google-bundle",
+    "description": "eZ publish 5 bundle for google analytics, webmastertools",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name" : "Guillaume Maïssa",
+            "email": "pro.g@maissa.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "Phabriks\\GoogleBundle": "" }
+    },
+    "target-dir": "Phabriks/GoogleBundle"
+}
